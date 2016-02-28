@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Spinneritems">
+        <item>Lots of Activity (1 to 2 hrs)</item>
+        <item>Medium Activity (30 min to 1 hr)</item>
+        <item>Little Activity (Less than 30 min)</item>
+        <item>No Activity (0 min)</item>
+    </string-array>
+
+</resources>
