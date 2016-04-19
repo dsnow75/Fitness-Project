@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Fitness App</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Pocket Fitness</string>
+    <string name="activityTitle">Pocket Fitness Menu</string>
+    <string name="sleepButton">Sleep</string>
+    <string name="profileButton">Profile Page</string>
+    <string name="dietButton">Diet/Calories</string>
+    <string name="exerciseButton">Exercise</string>
+    <string name="progressButton">View Progress</string>
 
     <string-array name="Spinneritems">
         <item>Lots of Activity (1 to 2 hrs)</item>
@@ -8,5 +13,4 @@
         <item>Little Activity (Less than 30 min)</item>
         <item>No Activity (0 min)</item>
     </string-array>
-
 </resources>
