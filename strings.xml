@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">PocketFitness</string>
-
-    <string name="diet_test">Diet Test</string>
-    <string name="exercise_test">Exercise Test</string>
-    <string name="sleep_test">Sleep Test</string>
+    <string name="app_name">Pocket Fitness</string>
+    <string name="activityTitle">Pocket Fitness Menu</string>
+    <string name="sleepButton">Sleep</string>
+    <string name="profileButton">Profile Page</string>
+    <string name="dietButton">Diet/Calories</string>
+    <string name="exerciseButton">Exercise</string>
+    <string name="progressButton">View Progress</string>
 
     <string name="title_activity_add_diet">Add Food Consumed</string>
     <string name="title_activity_add_exercise">Add Exercise Done</string>
@@ -20,4 +22,11 @@
     <string name="hours">Hours</string>
     <string name="date">Date</string>
     <string name="sleep">Sleep Time</string>
+
+    <string-array name="Spinneritems">
+        <item>Lots of Activity (1 to 2 hrs)</item>
+        <item>Medium Activity (30 min to 1 hr)</item>
+        <item>Little Activity (Less than 30 min)</item>
+        <item>No Activity (0 min)</item>
+    </string-array>
 </resources>

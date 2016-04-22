@@ -1,8 +1,5 @@
-package mattski47.databases386;
+package jmda.pocketfitness;
 
-/**
- * Created by Matthew on 2/24/2016.
- */
 public class Diet
 {
     private String food;

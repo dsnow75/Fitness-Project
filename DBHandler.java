@@ -1,8 +1,5 @@
-package mattski47.databases386;
+package jmda.pocketfitness;
 
-/**
- * Created by Matthew on 2/24/2016.
- */
 import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;

@@ -1,4 +1,4 @@
-package mattski47.databases386;
+package jmda.pocketfitness;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

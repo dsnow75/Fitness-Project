@@ -1,4 +1,4 @@
-package mattski47.databases386;
+package jmda.pocketfitness;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -47,10 +47,8 @@ public class ViewExerciseActivity extends AppCompatActivity implements View.OnCl
         add.setOnClickListener(this);
     }
 
-
     public void onClick(View v)
     {
         startActivity(this.addIntent);
     }
-
 }

@@ -1,51 +1,27 @@
-package mattski47.databases386;
+package jmda.pocketfitness;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+public class MainActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener
-{
-    private Intent dietIntent;
-    private Intent exerciseIntent;
-    private Intent sleepIntent;
-
+    Button btn;
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button diet = (Button) findViewById(R.id.diet);
-        Button exercise = (Button) findViewById(R.id.exercise);
-        Button sleep = (Button) findViewById(R.id.sleep);
+        btn = (Button) findViewById(R.id.profile_button_id);
+        btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                Intent intent_go_to_profile = new Intent(MainActivity.this, MainMenuActivity.class);
+                startActivity(intent_go_to_profile);
+            }
+        });
 
-        this.dietIntent = new Intent(this, ViewDietActivity.class);
-        this.exerciseIntent = new Intent(this, ViewExerciseActivity.class);
-        this.sleepIntent = new Intent(this, ViewSleepActivity.class);
-
-        diet.setOnClickListener(this);
-        exercise.setOnClickListener(this);
-        sleep.setOnClickListener(this);
-    }
-
-    public void onClick(View v)
-    {
-        MainActivity main = this;
-
-        switch (v.getId()) {
-            case R.id.diet:
-                startActivity(main.dietIntent);
-                break;
-            case R.id.exercise:
-                startActivity(main.exerciseIntent);
-                break;
-            case R.id.sleep:
-                startActivity(main.sleepIntent);
-                break;
-        }
     }
 }
